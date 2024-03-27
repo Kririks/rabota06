@@ -1,0 +1,67 @@
+body
+{
+    background-color: blue;
+    margin: 0;
+    overflow: hidden;
+}
+.login_window
+{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 10%;
+    align-items: center;
+    padding-top: 1%;
+    margin-bottom: 18.7%;
+}
+.window_name
+{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+.login
+{
+    margin-right: 2.8%;
+}
+.pass
+{
+    margin-right: 1%;
+}
+.enter
+{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    width: 40%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.sign_in
+{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.sign_in:hover
+{
+    text-decoration: underline;
+}
+.sign_in:not(:hover)
+{
+    text-decoration: none;
+}
+input[type=text], input[type=password]
+{
+    border: 5px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 10%;
+}

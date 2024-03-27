@@ -1,0 +1,43 @@
+body
+{
+    background-color: blue;
+    margin: 0;
+    overflow: hidden;
+}
+.poisk
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 19%;
+    margin-top: 1%;
+}
+.ggg
+{ 
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    padding-left: 40%;
+}
+#text_to_find
+{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    width: 100%;
+    padding-bottom: 40%;
+}
+.uuu
+{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+.but
+{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 1%;
+}
